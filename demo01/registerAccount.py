@@ -4,6 +4,15 @@
 # @File : registerAccount.py.py        当前文件名
 # @Software  当前编译器
 
+'''
+ 设置模板文件头
+# _*_ coding = utf-8 _*_    设置文件中文编码
+# @Time : ${DATE}
+# @Author King
+# @File : ${NAME}.py        当前文件名
+# @Software ${PROCUDT_NAME} 当前编译器
+'''
+
 import requests
 
 # url = "https://www.baidu.com"
@@ -29,3 +38,6 @@ cookie_str=""
 for cookie in cookie_t:
     cookie_str += cookie + "=" + cookies[cookie] + ";"
 print(cookie_str)
+
+
+
